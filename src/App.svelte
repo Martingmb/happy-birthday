@@ -40,9 +40,9 @@
 </style>
 
 <!-- svelte-ignore a11y-media-has-caption -->
-<audio preload="auto" autoplay bind:muted={muted} bind:paused={paused}>
+<audio preload="auto" autoplay bind:muted={muted} bind:paused={paused} controls>
   <source src="/music/intro.mp3" type="audio/mpeg">
-</audio>
+</audio> 
 
 <Intro/>
 <Logo/>
